@@ -1,0 +1,21 @@
+To Configure Ports and Process names, a config file is present. There are 4 sections in the config File -> Process, Path, Port, Command. For this example let’s say we have 3 process:
+1.SC
+2.TC
+3.Tomcat
+
+Note: Pipes are referneced here to separate the three key value pairs.
+
+Process:
+The Key should be left as button, button2, button3. Values should be changed with the Process name. Example-> button1= sc || button2 = tc || button3= tomcat
+
+Path:
+The key for Path should be same as values of keys of processes and value should be respective path of the process.. Example-> sc = path1 || tc= path2 || tomcat= path3
+
+Port:
+The key for Port should be same as values of keys of processes and value should be respective port of the process. Example-> sc = port1 || tc= port2 || tomcat= port3
+
+Command:
+The key for Port should be same as values of keys of processes And value should be respective commands to run the process.
+Example-> sc = sc.bat console || tc = tc.bat console || tomcat = startup.bat console
+
+Now you can launch the exe file. When you start any process, the tool will minimize by itself as the desired window of the process will open. Please click on the conroller again in the startbar.
